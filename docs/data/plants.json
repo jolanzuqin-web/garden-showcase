@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "tomat",
+    "name": "Томат",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": true,
+    "regions": [],
+    "icon": "tomato",
+    "family": "paslen",
+    "feed": 2
+  },
+  {
+    "id": "ogurets",
+    "name": "Огурец",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "cucumber",
+    "family": "tykv",
+    "feed": 1
+  },
+  {
+    "id": "kartofel",
+    "name": "Картофель",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "potato",
+    "family": "paslen",
+    "feed": 1
+  },
+  {
+    "id": "kapusta",
+    "name": "Капуста белокочанная",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": true,
+    "regions": [],
+    "icon": "cabbage",
+    "family": "kapust",
+    "feed": 1
+  },
+  {
+    "id": "morkov",
+    "name": "Морковь",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "carrot",
+    "family": "seld",
+    "feed": 2
+  },
+  {
+    "id": "svekla",
+    "name": "Свёкла",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "beet",
+    "family": "amar",
+    "feed": 2
+  },
+  {
+    "id": "luk",
+    "name": "Лук репчатый",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "onion",
+    "family": "luk",
+    "feed": 2
+  },
+  {
+    "id": "chesnok",
+    "name": "Чеснок",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "onion",
+    "family": "luk",
+    "feed": 2
+  },
+  {
+    "id": "perets",
+    "name": "Перец",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": true,
+    "regions": [],
+    "icon": "pepper",
+    "family": "paslen",
+    "feed": 1
+  },
+  {
+    "id": "kabachok",
+    "name": "Кабачок",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "gourd",
+    "family": "tykv",
+    "feed": 1
+  },
+  {
+    "id": "tykva",
+    "name": "Тыква",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "gourd",
+    "family": "tykv",
+    "feed": 1
+  },
+  {
+    "id": "redis",
+    "name": "Редис",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "root-round",
+    "family": "kapust",
+    "feed": 3
+  },
+  {
+    "id": "gorokh",
+    "name": "Горох",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "pea-pod",
+    "family": "bob",
+    "feed": 4
+  },
+  {
+    "id": "ukrop",
+    "name": "Укроп",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "herb-sprig",
+    "family": "seld",
+    "feed": 3
+  },
+  {
+    "id": "petrushka",
+    "name": "Петрушка",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "herb-sprig",
+    "family": "seld",
+    "feed": 2
+  },
+  {
+    "id": "hosta",
+    "name": "Хоста",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "hosta"
+  },
+  {
+    "id": "tuya",
+    "name": "Туя",
+    "category": "dekor",
+    "group": "hvoynye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "conifer-thuja"
+  },
+  {
+    "id": "mozhzhevelnik",
+    "name": "Можжевельник",
+    "category": "dekor",
+    "group": "hvoynye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "conifer-thuja"
+  },
+  {
+    "id": "samshit",
+    "name": "Самшит",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "barbaris",
+    "name": "Барбарис",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "spireya",
+    "name": "Спирея",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "doren",
+    "name": "Дёрен (кизил)",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "puzyreplodnik",
+    "name": "Пузыреплодник",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "gortenziya",
+    "name": "Гортензия",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "hydrangea"
+  },
+  {
+    "id": "klen",
+    "name": "Клён (декоративные формы)",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "bereskleet",
+    "name": "Бересклет",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "lapchatka",
+    "name": "Лапчатка",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "veygela",
+    "name": "Вейгела",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "chubushnik",
+    "name": "Чубушник",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "roza",
+    "name": "Роза",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "rose"
+  },
+  {
+    "id": "plyushch",
+    "name": "Плющ",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "paporotnik",
+    "name": "Папоротник",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "fern"
+  },
+  {
+    "id": "astilba",
+    "name": "Астильба",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "fern"
+  },
+  {
+    "id": "brunnera",
+    "name": "Бруннера",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "hosta"
+  },
+  {
+    "id": "geyhera",
+    "name": "Гейхера",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "hosta"
+  },
+  {
+    "id": "bazilik",
+    "name": "Базилик",
+    "category": "ogorod",
+    "group": "zelen",
+    "hasSeedlingStage": true,
+    "regions": [],
+    "icon": "herb-sprig",
+    "family": "yasn",
+    "feed": 3
+  },
+  {
+    "id": "salat",
+    "name": "Салат листовой",
+    "category": "ogorod",
+    "group": "zelen",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "leaf-green",
+    "family": "astr",
+    "feed": 3
+  },
+  {
+    "id": "kinza",
+    "name": "Кинза (кориандр)",
+    "category": "ogorod",
+    "group": "zelen",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "herb-sprig",
+    "family": "seld",
+    "feed": 3
+  },
+  {
+    "id": "rukkola",
+    "name": "Руккола",
+    "category": "ogorod",
+    "group": "zelen",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "herb-sprig",
+    "family": "kapust",
+    "feed": 3
+  },
+  {
+    "id": "smorodina",
+    "name": "Смородина",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "berry-currant"
+  },
+  {
+    "id": "kryzhovnik",
+    "name": "Крыжовник",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "gooseberry"
+  },
+  {
+    "id": "malina",
+    "name": "Малина",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "berry-raspberry"
+  },
+  {
+    "id": "zhimolost",
+    "name": "Жимолость",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "berry-currant"
+  },
+  {
+    "id": "yablonya",
+    "name": "Яблоня",
+    "category": "sad",
+    "group": "derevo",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "apple"
+  },
+  {
+    "id": "grusha",
+    "name": "Груша",
+    "category": "sad",
+    "group": "derevo",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "pear"
+  },
+  {
+    "id": "sliva",
+    "name": "Слива",
+    "category": "sad",
+    "group": "derevo",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "stone-fruit"
+  },
+  {
+    "id": "vishnya",
+    "name": "Вишня",
+    "category": "sad",
+    "group": "derevo",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "stone-fruit"
+  },
+  {
+    "id": "pion",
+    "name": "Пион",
+    "category": "dekor",
+    "group": "mnogoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "peony"
+  },
+  {
+    "id": "floks",
+    "name": "Флокс",
+    "category": "dekor",
+    "group": "mnogoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "peony"
+  },
+  {
+    "id": "liliya",
+    "name": "Лилия",
+    "category": "dekor",
+    "group": "mnogoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "lily"
+  },
+  {
+    "id": "baklazhan",
+    "name": "Баклажан",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": true,
+    "regions": [],
+    "icon": "eggplant",
+    "family": "paslen",
+    "feed": 1
+  },
+  {
+    "id": "kukuruza",
+    "name": "Кукуруза сахарная",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "corn",
+    "family": "zlak",
+    "feed": 1
+  },
+  {
+    "id": "fasol",
+    "name": "Фасоль",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "pea-pod",
+    "family": "bob",
+    "feed": 4
+  },
+  {
+    "id": "repa",
+    "name": "Репа",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "root-round",
+    "family": "kapust",
+    "feed": 2
+  },
+  {
+    "id": "redka",
+    "name": "Редька",
+    "category": "ogorod",
+    "group": "ovoshi",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "root-round",
+    "family": "kapust",
+    "feed": 2
+  },
+  {
+    "id": "schavel",
+    "name": "Щавель",
+    "category": "ogorod",
+    "group": "zelen",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "leaf-green",
+    "family": "grech",
+    "feed": 2,
+    "perennial": true
+  },
+  {
+    "id": "shpinat",
+    "name": "Шпинат",
+    "category": "ogorod",
+    "group": "zelen",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "leaf-green",
+    "family": "amar",
+    "feed": 3
+  },
+  {
+    "id": "reven",
+    "name": "Ревень",
+    "category": "ogorod",
+    "group": "zelen",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "leaf-green",
+    "family": "grech",
+    "feed": 2,
+    "perennial": true
+  },
+  {
+    "id": "klubnika",
+    "name": "Клубника (садовая земляника)",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "strawberry"
+  },
+  {
+    "id": "vinograd",
+    "name": "Виноград",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "grape"
+  },
+  {
+    "id": "oblepikha",
+    "name": "Облепиха",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "sea-buckthorn"
+  },
+  {
+    "id": "ezhevika",
+    "name": "Ежевика",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "berry-raspberry"
+  },
+  {
+    "id": "irga",
+    "name": "Ирга",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "berry-currant"
+  },
+  {
+    "id": "kalina",
+    "name": "Калина",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "berry-currant"
+  },
+  {
+    "id": "abrikos",
+    "name": "Абрикос",
+    "category": "sad",
+    "group": "derevo",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "stone-fruit"
+  },
+  {
+    "id": "chereshnya",
+    "name": "Черешня",
+    "category": "sad",
+    "group": "derevo",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "stone-fruit"
+  },
+  {
+    "id": "golubika",
+    "name": "Голубика садовая",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "berry-currant"
+  },
+  {
+    "id": "siren",
+    "name": "Сирень",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "tyulpan",
+    "name": "Тюльпан",
+    "category": "dekor",
+    "group": "mnogoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "tulip"
+  },
+  {
+    "id": "narciss",
+    "name": "Нарцисс",
+    "category": "dekor",
+    "group": "mnogoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "tulip"
+  },
+  {
+    "id": "iris",
+    "name": "Ирис",
+    "category": "dekor",
+    "group": "mnogoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "iris"
+  },
+  {
+    "id": "lavanda",
+    "name": "Лаванда",
+    "category": "dekor",
+    "group": "mnogoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "lavender"
+  },
+  {
+    "id": "delfinium",
+    "name": "Дельфиниум",
+    "category": "dekor",
+    "group": "mnogoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "iris"
+  },
+  {
+    "id": "georgin",
+    "name": "Георгин",
+    "category": "dekor",
+    "group": "mnogoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "peony"
+  },
+  {
+    "id": "gladiolus",
+    "name": "Гладиолус",
+    "category": "dekor",
+    "group": "mnogoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "lily"
+  },
+  {
+    "id": "barhatcy",
+    "name": "Бархатцы",
+    "category": "dekor",
+    "group": "odnoletnik",
+    "hasSeedlingStage": true,
+    "regions": [],
+    "icon": "marigold"
+  },
+  {
+    "id": "petuniya",
+    "name": "Петуния",
+    "category": "dekor",
+    "group": "odnoletnik",
+    "hasSeedlingStage": true,
+    "regions": [],
+    "icon": "marigold"
+  },
+  {
+    "id": "nasturciya",
+    "name": "Настурция",
+    "category": "dekor",
+    "group": "odnoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "marigold"
+  },
+  {
+    "id": "kalendula",
+    "name": "Календула (ноготки)",
+    "category": "dekor",
+    "group": "odnoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "marigold"
+  },
+  {
+    "id": "krokus",
+    "name": "Крокус (шафран)",
+    "category": "dekor",
+    "group": "pervotsvet",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "tulip"
+  },
+  {
+    "id": "muskari",
+    "name": "Мускари",
+    "category": "dekor",
+    "group": "pervotsvet",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "tulip"
+  },
+  {
+    "id": "podsnezhnik",
+    "name": "Подснежник (галантус)",
+    "category": "dekor",
+    "group": "pervotsvet",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "tulip"
+  },
+  {
+    "id": "el",
+    "name": "Ель",
+    "category": "dekor",
+    "group": "hvoynye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "conifer-pine"
+  },
+  {
+    "id": "sosna",
+    "name": "Сосна",
+    "category": "dekor",
+    "group": "hvoynye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "conifer-pine"
+  },
+  {
+    "id": "persik",
+    "name": "Персик",
+    "category": "sad",
+    "group": "derevo",
+    "hasSeedlingStage": false,
+    "regions": [
+      "yug"
+    ],
+    "icon": "stone-fruit"
+  },
+  {
+    "id": "voylochnaya-vishnya",
+    "name": "Вишня войлочная",
+    "category": "sad",
+    "group": "derevo",
+    "hasSeedlingStage": false,
+    "regions": [
+      "ural-sibir"
+    ],
+    "icon": "stone-fruit"
+  },
+  {
+    "id": "klyukva",
+    "name": "Клюква садовая",
+    "category": "sad",
+    "group": "yagoda",
+    "hasSeedlingStage": false,
+    "regions": [
+      "severo-zapad"
+    ],
+    "icon": "berry-currant"
+  },
+  {
+    "id": "cheremuha-virginskaya",
+    "name": "Черёмуха виргинская",
+    "category": "sad",
+    "group": "derevo",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "stone-fruit"
+  },
+  {
+    "id": "forsiciya",
+    "name": "Форзиция",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "tsuga-kanadskaya",
+    "name": "Тсуга канадская",
+    "category": "dekor",
+    "group": "hvoynye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "conifer-pine"
+  },
+  {
+    "id": "bereza",
+    "name": "Берёза",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "dub",
+    "name": "Дуб",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "listvennitsa",
+    "name": "Лиственница",
+    "category": "dekor",
+    "group": "hvoynye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "conifer-pine"
+  },
+  {
+    "id": "ginkgo-biloba",
+    "name": "Гинкго билоба",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "pihta",
+    "name": "Пихта",
+    "category": "dekor",
+    "group": "hvoynye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "conifer-pine"
+  },
+  {
+    "id": "mikrobiota",
+    "name": "Микробиота",
+    "category": "dekor",
+    "group": "hvoynye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "conifer-thuja"
+  },
+  {
+    "id": "boyaryshnik",
+    "name": "Боярышник",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "klen-yaponskiy",
+    "name": "Клён японский",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "metasekvoyya",
+    "name": "Метасеквойя",
+    "category": "dekor",
+    "group": "hvoynye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "conifer-pine"
+  },
+  {
+    "id": "ryabina",
+    "name": "Рябина",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "ryabinolistnik",
+    "name": "Рябинник рябинолистный",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "sumah",
+    "name": "Сумах оленерогий",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "bagryanik",
+    "name": "Багряник японский",
+    "category": "dekor",
+    "group": "dekorativno-listvennye",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "shrub-leaf"
+  },
+  {
+    "id": "badan",
+    "name": "Бадан",
+    "category": "dekor",
+    "group": "mnogoletnik",
+    "hasSeedlingStage": false,
+    "regions": [],
+    "icon": "hosta"
+  }
+]

@@ -1,0 +1,105 @@
+id	name	category	group	hasSeedlingStage	regions	icon	family	feed	perennial
+tomat	Томат	ogorod	ovoshi	да		tomato	paslen	2	
+ogurets	Огурец	ogorod	ovoshi	нет		cucumber	tykv	1	
+kartofel	Картофель	ogorod	ovoshi	нет		potato	paslen	1	
+kapusta	Капуста белокочанная	ogorod	ovoshi	да		cabbage	kapust	1	
+morkov	Морковь	ogorod	ovoshi	нет		carrot	seld	2	
+svekla	Свёкла	ogorod	ovoshi	нет		beet	amar	2	
+luk	Лук репчатый	ogorod	ovoshi	нет		onion	luk	2	
+chesnok	Чеснок	ogorod	ovoshi	нет		onion	luk	2	
+perets	Перец	ogorod	ovoshi	да		pepper	paslen	1	
+kabachok	Кабачок	ogorod	ovoshi	нет		gourd	tykv	1	
+tykva	Тыква	ogorod	ovoshi	нет		gourd	tykv	1	
+redis	Редис	ogorod	ovoshi	нет		root-round	kapust	3	
+gorokh	Горох	ogorod	ovoshi	нет		pea-pod	bob	4	
+ukrop	Укроп	ogorod	ovoshi	нет		herb-sprig	seld	3	
+petrushka	Петрушка	ogorod	ovoshi	нет		herb-sprig	seld	2	
+hosta	Хоста	dekor	dekorativno-listvennye	нет		hosta			
+tuya	Туя	dekor	hvoynye	нет		conifer-thuja			
+mozhzhevelnik	Можжевельник	dekor	hvoynye	нет		conifer-thuja			
+samshit	Самшит	dekor	dekorativno-listvennye	нет		shrub-leaf			
+barbaris	Барбарис	dekor	dekorativno-listvennye	нет		shrub-leaf			
+spireya	Спирея	dekor	dekorativno-listvennye	нет		shrub-leaf			
+doren	Дёрен (кизил)	dekor	dekorativno-listvennye	нет		shrub-leaf			
+puzyreplodnik	Пузыреплодник	dekor	dekorativno-listvennye	нет		shrub-leaf			
+gortenziya	Гортензия	dekor	dekorativno-listvennye	нет		hydrangea			
+klen	Клён (декоративные формы)	dekor	dekorativno-listvennye	нет		shrub-leaf			
+bereskleet	Бересклет	dekor	dekorativno-listvennye	нет		shrub-leaf			
+lapchatka	Лапчатка	dekor	dekorativno-listvennye	нет		shrub-leaf			
+veygela	Вейгела	dekor	dekorativno-listvennye	нет		shrub-leaf			
+chubushnik	Чубушник	dekor	dekorativno-listvennye	нет		shrub-leaf			
+roza	Роза	dekor	dekorativno-listvennye	нет		rose			
+plyushch	Плющ	dekor	dekorativno-listvennye	нет		shrub-leaf			
+paporotnik	Папоротник	dekor	dekorativno-listvennye	нет		fern			
+astilba	Астильба	dekor	dekorativno-listvennye	нет		fern			
+brunnera	Бруннера	dekor	dekorativno-listvennye	нет		hosta			
+geyhera	Гейхера	dekor	dekorativno-listvennye	нет		hosta			
+bazilik	Базилик	ogorod	zelen	да		herb-sprig	yasn	3	
+salat	Салат листовой	ogorod	zelen	нет		leaf-green	astr	3	
+kinza	Кинза (кориандр)	ogorod	zelen	нет		herb-sprig	seld	3	
+rukkola	Руккола	ogorod	zelen	нет		herb-sprig	kapust	3	
+smorodina	Смородина	sad	yagoda	нет		berry-currant			
+kryzhovnik	Крыжовник	sad	yagoda	нет		gooseberry			
+malina	Малина	sad	yagoda	нет		berry-raspberry			
+zhimolost	Жимолость	sad	yagoda	нет		berry-currant			
+yablonya	Яблоня	sad	derevo	нет		apple			
+grusha	Груша	sad	derevo	нет		pear			
+sliva	Слива	sad	derevo	нет		stone-fruit			
+vishnya	Вишня	sad	derevo	нет		stone-fruit			
+pion	Пион	dekor	mnogoletnik	нет		peony			
+floks	Флокс	dekor	mnogoletnik	нет		peony			
+liliya	Лилия	dekor	mnogoletnik	нет		lily			
+baklazhan	Баклажан	ogorod	ovoshi	да		eggplant	paslen	1	
+kukuruza	Кукуруза сахарная	ogorod	ovoshi	нет		corn	zlak	1	
+fasol	Фасоль	ogorod	ovoshi	нет		pea-pod	bob	4	
+repa	Репа	ogorod	ovoshi	нет		root-round	kapust	2	
+redka	Редька	ogorod	ovoshi	нет		root-round	kapust	2	
+schavel	Щавель	ogorod	zelen	нет		leaf-green	grech	2	1
+shpinat	Шпинат	ogorod	zelen	нет		leaf-green	amar	3	
+reven	Ревень	ogorod	zelen	нет		leaf-green	grech	2	1
+klubnika	Клубника (садовая земляника)	sad	yagoda	нет		strawberry			
+vinograd	Виноград	sad	yagoda	нет		grape			
+oblepikha	Облепиха	sad	yagoda	нет		sea-buckthorn			
+ezhevika	Ежевика	sad	yagoda	нет		berry-raspberry			
+irga	Ирга	sad	yagoda	нет		berry-currant			
+kalina	Калина	sad	yagoda	нет		berry-currant			
+abrikos	Абрикос	sad	derevo	нет		stone-fruit			
+chereshnya	Черешня	sad	derevo	нет		stone-fruit			
+golubika	Голубика садовая	sad	yagoda	нет		berry-currant			
+siren	Сирень	dekor	dekorativno-listvennye	нет		shrub-leaf			
+tyulpan	Тюльпан	dekor	mnogoletnik	нет		tulip			
+narciss	Нарцисс	dekor	mnogoletnik	нет		tulip			
+iris	Ирис	dekor	mnogoletnik	нет		iris			
+lavanda	Лаванда	dekor	mnogoletnik	нет		lavender			
+delfinium	Дельфиниум	dekor	mnogoletnik	нет		iris			
+georgin	Георгин	dekor	mnogoletnik	нет		peony			
+gladiolus	Гладиолус	dekor	mnogoletnik	нет		lily			
+barhatcy	Бархатцы	dekor	odnoletnik	да		marigold			
+petuniya	Петуния	dekor	odnoletnik	да		marigold			
+nasturciya	Настурция	dekor	odnoletnik	нет		marigold			
+kalendula	Календула (ноготки)	dekor	odnoletnik	нет		marigold			
+krokus	Крокус (шафран)	dekor	pervotsvet	нет		tulip			
+muskari	Мускари	dekor	pervotsvet	нет		tulip			
+podsnezhnik	Подснежник (галантус)	dekor	pervotsvet	нет		tulip			
+el	Ель	dekor	hvoynye	нет		conifer-pine			
+sosna	Сосна	dekor	hvoynye	нет		conifer-pine			
+persik	Персик	sad	derevo	нет	yug	stone-fruit			
+voylochnaya-vishnya	Вишня войлочная	sad	derevo	нет	ural-sibir	stone-fruit			
+klyukva	Клюква садовая	sad	yagoda	нет	severo-zapad	berry-currant			
+cheremuha-virginskaya	Черёмуха виргинская	sad	derevo	нет		stone-fruit			
+forsiciya	Форзиция	dekor	dekorativno-listvennye	нет		shrub-leaf			
+tsuga-kanadskaya	Тсуга канадская	dekor	hvoynye	нет		conifer-pine			
+bereza	Берёза	dekor	dekorativno-listvennye	нет		shrub-leaf			
+dub	Дуб	dekor	dekorativno-listvennye	нет		shrub-leaf			
+listvennitsa	Лиственница	dekor	hvoynye	нет		conifer-pine			
+ginkgo-biloba	Гинкго билоба	dekor	dekorativno-listvennye	нет		shrub-leaf			
+pihta	Пихта	dekor	hvoynye	нет		conifer-pine			
+mikrobiota	Микробиота	dekor	hvoynye	нет		conifer-thuja			
+boyaryshnik	Боярышник	dekor	dekorativno-listvennye	нет		shrub-leaf			
+klen-yaponskiy	Клён японский	dekor	dekorativno-listvennye	нет		shrub-leaf			
+metasekvoyya	Метасеквойя	dekor	hvoynye	нет		conifer-pine			
+ryabina	Рябина	dekor	dekorativno-listvennye	нет		shrub-leaf			
+ryabinolistnik	Рябинник рябинолистный	dekor	dekorativno-listvennye	нет		shrub-leaf			
+sumah	Сумах оленерогий	dekor	dekorativno-listvennye	нет		shrub-leaf			
+bagryanik	Багряник японский	dekor	dekorativno-listvennye	нет		shrub-leaf			
+badan	Бадан	dekor	mnogoletnik	нет		hosta			

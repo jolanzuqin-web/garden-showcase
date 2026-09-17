@@ -1,0 +1,20 @@
+name = "garden-notify"
+main = "index.js"
+compatibility_date = "2024-11-01"
+
+# Создать namespace: wrangler kv namespace create SUBSCRIBERS
+# Затем подставить сюда id (и preview_id для wrangler dev)
+kv_namespaces = [
+  { binding = "SUBSCRIBERS", id = "<your-kv-namespace-id>", preview_id = "<your-kv-preview-id>" }
+]
+
+[observability]
+enabled = true
+
+[vars]
+SITE_ORIGIN = "https://your-site.example"
+
+# Секреты (не хранить в этом файле!) задаются отдельно:
+#   wrangler secret put TELEGRAM_BOT_TOKEN
+#   wrangler secret put CRON_SECRET
+#   wrangler secret put TELEGRAM_WEBHOOK_SECRET

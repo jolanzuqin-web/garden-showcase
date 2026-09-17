@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<script>document.documentElement.setAttribute('data-season', ['winter','winter','spring','spring','spring','summer','summer','summer','autumn','autumn','autumn','winter'][new Date().getMonth()]);</script>
+<script>(function(){try{var t=localStorage.getItem('garden.theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Телеграм-бот «Календарь садовода» — напоминания о сезонных работах</title>
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<meta name="description" content="Телеграм-бот присылает список сезонных садово-огородных работ по вашему региону РФ раз в месяц, 1-го числа: посев, обрезка, подкормка, защита от вредителей — вовремя.">
+<link rel="canonical" href="https://posadu.ru/bot/index.html">
+<meta name="robots" content="noindex, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Телеграм-бот «Календарь садовода»">
+<meta property="og:description" content="Список сезонных работ по вашему региону РФ — раз в месяц, 1-го числа, в Telegram.">
+<meta property="og:url" content="https://posadu.ru/bot/index.html">
+<meta property="og:image" content="https://posadu.ru/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://posadu.ru/og-image.png">
+<link rel="stylesheet" href="../css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Телеграм-бот «Календарь садовода»","description":"Список сезонных садово-огородных работ по региону РФ раз в месяц в Telegram.","inLanguage":"ru","url":"https://posadu.ru/bot/index.html","isPartOf":{"@type":"WebSite","name":"По саду — календарь садовода","url":"https://posadu.ru/"}}</script>
+<style>
+/* ==== Стили только промо-лендинга бота ==== */
+.lp-main { max-width: 62rem; margin: 0 auto; padding: 1.5rem 1.1rem 3rem; }
+
+.lp-hero { display: grid; grid-template-columns: 1.05fr .95fr; gap: 2rem;
+  align-items: center; margin: 1.5rem 0 3.5rem; }
+.lp-hero h1 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600;
+  font-size: clamp(2rem, 4.4vw, 3rem); line-height: 1.12; margin: 0 0 .9rem;
+  color: var(--text); }
+.lp-hero p { font-size: 1.1rem; line-height: 1.55; color: var(--text-muted);
+  margin: 0 0 1.6rem; max-width: 34ch; }
+.lp-goose { position: relative; }
+.lp-goose img { display: block; width: 100%; height: auto; border-radius: var(--radius);
+  border: 1px solid var(--card-border); box-shadow: var(--shadow); background: var(--bg-alt); }
+.lp-goose figcaption { font-family: 'Caveat', cursive; font-size: 1.35rem;
+  text-align: center; color: var(--text-muted); margin-top: .5rem; }
+
+.lp-btn { display: inline-flex; align-items: center; gap: .5rem;
+  padding: .8rem 1.5rem; border-radius: 999px; border: 1px solid var(--primary-dark);
+  background: var(--primary); color: #fff; font: inherit; font-weight: 600;
+  font-size: 1.02rem; text-decoration: none; cursor: pointer;
+  transition: background .15s ease, transform .1s ease; }
+.lp-btn:hover { background: var(--primary-dark); }
+.lp-btn:active { transform: translateY(1px); }
+.lp-btn svg { width: 1.15em; height: 1.15em; }
+
+.lp-h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600;
+  font-size: clamp(1.5rem, 3vw, 2rem); color: var(--text); text-align: center;
+  margin: 0 0 1.6rem; }
+
+.lp-benefits { margin: 0 0 3.5rem; }
+.lp-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; }
+.lp-cards .card { padding: 1.3rem 1.2rem; }
+.lp-cards h3 { margin: 0 0 .5rem; font-size: 1.08rem; color: var(--text); }
+.lp-cards p { margin: 0; font-size: .97rem; line-height: 1.5; color: var(--text-muted); }
+.lp-cards .lp-num { font-family: 'Caveat', cursive; font-size: 1.7rem;
+  color: var(--accent); line-height: 1; display: block; margin-bottom: .3rem; }
+
+.lp-trust { margin: 0 0 3.5rem; padding: 1.6rem 1.4rem; background: var(--bg-alt);
+  border: 1px solid var(--card-border); border-radius: var(--radius); }
+.lp-trust ul { margin: 0; padding-left: 1.2rem; line-height: 1.7; color: var(--text-muted); }
+.lp-trust a { color: var(--primary-dark); }
+
+.lp-cta { text-align: center; margin: 0 0 1rem; }
+.lp-cta p { color: var(--text-muted); margin: 0 0 1.1rem; }
+.lp-cta-row { display: inline-flex; flex-wrap: wrap; gap: .7rem; align-items: center;
+  justify-content: center; }
+.lp-cta select { padding: .78rem .9rem; border-radius: var(--radius);
+  border: 1px solid var(--card-border); background: var(--bg-alt); color: var(--text);
+  font: inherit; font-size: 1rem; }
+.lp-cta-secondary { display: block; margin-top: 1rem; }
+.lp-cta-secondary a { color: var(--text-muted); }
+
+.lp-nowrap { white-space: nowrap; }
+
+.lp-msg { margin: 1.2rem auto 0; max-width: 30rem; background: var(--chip-bg);
+  border: 1px solid var(--card-border); border-radius: var(--radius);
+  border-top-left-radius: 4px; padding: .9rem 1rem; font-size: .92rem;
+  line-height: 1.5; color: var(--text); }
+.lp-msg b { color: var(--primary-dark); }
+.lp-msg .lp-msg-from { display: block; font-family: 'Caveat', cursive;
+  font-size: 1.15rem; color: var(--text-muted); margin-bottom: .2rem; }
+.lp-msg ul { margin: .4rem 0 0; padding-left: 1.1rem; }
+
+@media (max-width: 768px) {
+  .lp-hero { grid-template-columns: 1fr; gap: 1.4rem; margin: 1rem 0 2.5rem; }
+  .lp-hero p { max-width: none; }
+  .lp-goose { order: -1; max-width: 22rem; margin: 0 auto; }
+  .lp-cards { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body class="app">
+
+<div class="page-sheet">
+<div class="page-frame noprint" aria-hidden="true">
+  <svg class="grain" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <filter id="pf-grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="4" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.30  0 0 0 0 0.23  0 0 0 0 0.11  0 0 0 0.04 0"/></filter>
+    <rect width="100%" height="100%" filter="url(#pf-grain)"></rect>
+  </svg>
+  <svg class="corner tl" viewBox="0 0 74 74" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 70 C6 44 16 18 44 8"></path><path d="M44 8 C34 18 27 32 25 48 C36 36 50 33 66 38 C50 42 37 52 30 66 C29 56 24 50 15 48"></path><path d="M25 48 C22 40 16 36 8 36"></path><circle cx="66" cy="38" r="2.4" fill="currentColor" stroke="none"></circle></svg>
+  <svg class="corner tr" viewBox="0 0 74 74" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 70 C6 44 16 18 44 8"></path><path d="M44 8 C34 18 27 32 25 48 C36 36 50 33 66 38 C50 42 37 52 30 66 C29 56 24 50 15 48"></path><path d="M25 48 C22 40 16 36 8 36"></path><circle cx="66" cy="38" r="2.4" fill="currentColor" stroke="none"></circle></svg>
+  <svg class="corner bl" viewBox="0 0 74 74" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 70 C6 44 16 18 44 8"></path><path d="M44 8 C34 18 27 32 25 48 C36 36 50 33 66 38 C50 42 37 52 30 66 C29 56 24 50 15 48"></path><path d="M25 48 C22 40 16 36 8 36"></path><circle cx="66" cy="38" r="2.4" fill="currentColor" stroke="none"></circle></svg>
+  <svg class="corner br" viewBox="0 0 74 74" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 70 C6 44 16 18 44 8"></path><path d="M44 8 C34 18 27 32 25 48 C36 36 50 33 66 38 C50 42 37 52 30 66 C29 56 24 50 15 48"></path><path d="M25 48 C22 40 16 36 8 36"></path><circle cx="66" cy="38" r="2.4" fill="currentColor" stroke="none"></circle></svg>
+</div>
+
+<header class="topbar noprint">
+  <a class="brand" href="../index.html" aria-label="По саду — на главную">
+    <svg class="logo" viewBox="0 0 64 64" role="img" aria-label="По саду — календарь садовода">
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M27 10 C 16 14 9 23 9 33 C 9 44 18 53 31 55" stroke="#556139" stroke-width="2.3"/>
+        <path d="M37 10 C 48 14 55 23 55 33 C 55 44 46 53 33 55" stroke="#728450" stroke-width="2.3"/>
+        <circle cx="32" cy="9" r="1.7" fill="#c1863a" stroke="#38312a" stroke-width="0.8"/>
+        <path d="M44.3 24.3 C 41 18.5 37 17.5 32 17.5 C 24 17.5 17.5 24 17.5 32 C 17.5 40 24 46.5 32 46.5 C 37 46.5 41 45.5 44.3 39.7" stroke="#38312a" stroke-width="3"/>
+        <path d="M26.5 25 H37.5" stroke="#38312a" stroke-width="3"/>
+        <path d="M28 25 V39" stroke="#38312a" stroke-width="3"/>
+        <path d="M36 25 V39" stroke="#38312a" stroke-width="3"/>
+        <path d="M26 39 H30 M34 39 H38" stroke="#38312a" stroke-width="2.2"/>
+      </g>
+    </svg>
+    <div class="wm">По саду<small>календарь садовода</small></div>
+  </a>
+  <nav class="site-nav" aria-label="Разделы сайта">
+    <a href="../index.html">Календарь</a>
+    <a href="../articles/index.html">Статьи</a>
+  </nav>
+  <div class="topbar-controls">
+    <button class="btn-theme noprint" type="button" aria-label="Переключить тёмную тему"
+            title="Светлая / тёмная тема"></button>
+  </div>
+</header>
+
+<main class="lp-main">
+
+  <section class="lp-hero">
+    <div>
+      <h1>Что делать в саду в&nbsp;этом месяце — напомним <span class="lp-nowrap">1-го числа</span></h1>
+      <p>Телеграм-бот присылает список сезонных работ по вашему региону: посев, обрезка, подкормка, защита от вредителей — в срок, а не задним числом.</p>
+      <p class="lp-paused" role="status">Приём новых подписок временно приостановлен. Календарь работ доступен на сайте без подписки — <a href="../index.html">открыть</a>.</p>
+    </div>
+    <figure class="lp-goose">
+      <img src="../img/bot-hero.webp" alt="Гусь-смотритель в кепке и фартуке у календаря на стене — маскот проекта «Календарь садовода»" width="900" height="900" decoding="async" fetchpriority="high">
+      <figcaption>Гусь-смотритель проверит, ничего ли вы не забыли</figcaption>
+    </figure>
+  </section>
+
+  <section class="lp-benefits">
+    <h2 class="lp-h2">Зачем это нужно</h2>
+    <div class="lp-cards">
+      <article class="card">
+        <span class="lp-num">1</span>
+        <h3>Раз в месяц, вовремя</h3>
+        <p>1-го числа бот присылает, что делать в саду и огороде именно сейчас — с учётом вашего региона.</p>
+      </article>
+      <article class="card">
+        <span class="lp-num">2</span>
+        <h3>По декадам и типам работ</h3>
+        <p>Не сплошной список: работы разбиты по декадам месяца и категориям — понятно, что раньше, что позже.</p>
+      </article>
+      <article class="card">
+        <span class="lp-num">3</span>
+        <h3>Со сроками и источниками</h3>
+        <p>Каждая рекомендация — со сроками, препаратами и ссылками на источники. Спорные данные сверяем перед публикацией.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="lp-trust">
+    <h2 class="lp-h2">Почему можно доверять</h2>
+    <ul>
+      <li>4 региона РФ: Средняя полоса, Юг, Урал и Сибирь, Северо-Запад.</li>
+      <li>Данные собраны по открытым агрономическим источникам — ссылки указаны в <a href="../articles/index.html">статьях об агротехнике</a>.</li>
+      <li>Тот же календарь доступен на сайте без подписки — <a href="../index.html">posadu.ru</a>.</li>
+      <li>Бот бесплатный, без рекламы. Отписаться можно в любой момент командой в чате.</li>
+    </ul>
+    <div class="lp-msg">
+      <span class="lp-msg-from">Календарь садовода · 1 сентября</span>
+      <b>Сентябрь · Средняя полоса</b>
+      <ul>
+        <li>1–10 сентября — посадка озимого чеснока, деление и пересадка многолетников.</li>
+        <li>2-я декада — влагозарядковый полив плодовых, сбор и переработка урожая.</li>
+        <li>Весь месяц — санитарная обрезка, уборка растительных остатков от вредителей.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="lp-cta">
+    <h2 class="lp-h2">Подписка временно недоступна</h2>
+    <p>Приём новых подписок на бота приостановлен. Тот же календарь сезонных работ по вашему региону доступен на сайте без подписки и без регистрации.</p>
+    <div class="lp-cta-row">
+      <a class="lp-btn" href="../index.html">Открыть календарь на сайте</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer noprint">
+  <span>Материалы составлены по открытым источникам — ссылки указаны в конце каждой статьи. <a href="../index.html">posadu.ru</a></span>
+</footer>
+</div>
+
+<script>
+(function () {
+  // Тумблер темы (та же логика, что на страницах статей)
+  var b = document.querySelector('.btn-theme');
+  if (b) {
+    var cur = function () { return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'; };
+    b.setAttribute('aria-pressed', String(cur() === 'dark'));
+    b.addEventListener('click', function () {
+      var n = cur() === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', n);
+      try { localStorage.setItem('garden.theme', n); } catch (e) {}
+      b.setAttribute('aria-pressed', String(n === 'dark'));
+    });
+  }
+})();
+</script>
+</body>
+</html>

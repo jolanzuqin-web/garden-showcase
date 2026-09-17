@@ -1,0 +1,56 @@
+[
+  {
+    "id": "obrabotka",
+    "name": "Обработка от вредителей и болезней",
+    "icon": "🛡️",
+    "order": 1
+  },
+  {
+    "id": "udobrenie",
+    "name": "Удобрение и подкормка",
+    "icon": "🌱",
+    "order": 4
+  },
+  {
+    "id": "obrezka",
+    "name": "Обрезка и формировка",
+    "icon": "✂️",
+    "order": 6
+  },
+  {
+    "id": "posev",
+    "name": "Посев, посадка и высадка",
+    "icon": "🌰",
+    "order": 2
+  },
+  {
+    "id": "poliv",
+    "name": "Полив",
+    "icon": "💧",
+    "order": 3
+  },
+  {
+    "id": "mulcha",
+    "name": "Мульчирование",
+    "icon": "🍁",
+    "order": 5
+  },
+  {
+    "id": "ukrytie",
+    "name": "Укрытие",
+    "icon": "🧥",
+    "order": 7
+  },
+  {
+    "id": "urozhay",
+    "name": "Сбор урожая",
+    "icon": "🧺",
+    "order": 8
+  },
+  {
+    "id": "razmnozhenie",
+    "name": "Размножение",
+    "icon": "🌿",
+    "order": 9
+  }
+]

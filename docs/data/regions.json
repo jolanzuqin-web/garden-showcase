@@ -1,0 +1,18 @@
+[
+  {
+    "id": "srednyaya-polosa",
+    "name": "Средняя полоса"
+  },
+  {
+    "id": "yug",
+    "name": "Юг"
+  },
+  {
+    "id": "ural-sibir",
+    "name": "Урал и Сибирь"
+  },
+  {
+    "id": "severo-zapad",
+    "name": "Северо-Запад"
+  }
+]

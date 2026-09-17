@@ -1,0 +1,77 @@
+{
+  "families": [
+    {
+      "id": "paslen",
+      "name": "Паслёновые",
+      "gap": 4,
+      "badWith": []
+    },
+    {
+      "id": "kapust",
+      "name": "Капустные",
+      "gap": 4,
+      "badWith": []
+    },
+    {
+      "id": "tykv",
+      "name": "Тыквенные",
+      "gap": 3,
+      "badWith": []
+    },
+    {
+      "id": "seld",
+      "name": "Сельдерейные",
+      "gap": 3,
+      "badWith": []
+    },
+    {
+      "id": "luk",
+      "name": "Луковые",
+      "gap": 3,
+      "badWith": [
+        "bob"
+      ]
+    },
+    {
+      "id": "bob",
+      "name": "Бобовые",
+      "gap": 2,
+      "badWith": [
+        "luk",
+        "amar"
+      ]
+    },
+    {
+      "id": "amar",
+      "name": "Амарантовые",
+      "gap": 3,
+      "badWith": [
+        "bob"
+      ]
+    },
+    {
+      "id": "astr",
+      "name": "Астровые",
+      "gap": 2,
+      "badWith": []
+    },
+    {
+      "id": "zlak",
+      "name": "Злаки",
+      "gap": 2,
+      "badWith": []
+    },
+    {
+      "id": "yasn",
+      "name": "Яснотковые",
+      "gap": 2,
+      "badWith": []
+    },
+    {
+      "id": "grech",
+      "name": "Гречишные",
+      "gap": 5,
+      "badWith": []
+    }
+  ]
+}

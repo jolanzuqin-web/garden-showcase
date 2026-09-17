@@ -1,0 +1,3 @@
+docs/build/node_modules/
+docs/build/.fonts-ttf/
+worker/.wrangler/
