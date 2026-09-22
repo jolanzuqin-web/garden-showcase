@@ -22,7 +22,7 @@ const urls = [{ loc: `${SITE_URL}/`, lastmod: today }];
 
 urls.push({ loc: `${SITE_URL}/sevooborot/`, lastmod: today });
 urls.push({ loc: `${SITE_URL}/articles/index.html`, lastmod: today });
-// urls.push({ loc: `${SITE_URL}/bot/index.html`, lastmod: today }); // временно отключено
+urls.push({ loc: `${SITE_URL}/bot/index.html`, lastmod: today });
 const articleFiles = fs.readdirSync(ARTICLES_SRC).filter((f) => f.endsWith('.md'));
 for (const file of articleFiles) {
   const { data } = matter(fs.readFileSync(path.join(ARTICLES_SRC, file), 'utf8'));

@@ -5,14 +5,13 @@
 <script>document.documentElement.setAttribute('data-season', ['winter','winter','spring','spring','spring','summer','summer','summer','autumn','autumn','autumn','winter'][new Date().getMonth()]);</script>
 <script>(function(){try{var t=localStorage.getItem('garden.theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Телеграм-бот «Календарь садовода» — напоминания о сезонных работах</title>
+<title>Telegram-каналы «Календарь садовода» — напоминания о сезонных работах</title>
 <link rel="icon" type="image/svg+xml" href="../favicon.svg">
-<meta name="description" content="Телеграм-бот присылает список сезонных садово-огородных работ по вашему региону РФ раз в месяц, 1-го числа: посев, обрезка, подкормка, защита от вредителей — вовремя.">
+<meta name="description" content="Telegram-каналы по регионам присылают список сезонных садово-огородных работ раз в месяц, 1-го числа: посев, обрезка, подкормка, защита от вредителей — вовремя.">
 <link rel="canonical" href="https://posadu.ru/bot/index.html">
-<meta name="robots" content="noindex, follow">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Телеграм-бот «Календарь садовода»">
-<meta property="og:description" content="Список сезонных работ по вашему региону РФ — раз в месяц, 1-го числа, в Telegram.">
+<meta property="og:title" content="Telegram-каналы «Календарь садовода»">
+<meta property="og:description" content="Список сезонных работ по вашему региону РФ — раз в месяц, 1-го числа, в Telegram-канале.">
 <meta property="og:url" content="https://posadu.ru/bot/index.html">
 <meta property="og:image" content="https://posadu.ru/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -20,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://posadu.ru/og-image.png">
 <link rel="stylesheet" href="../css/style.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Телеграм-бот «Календарь садовода»","description":"Список сезонных садово-огородных работ по региону РФ раз в месяц в Telegram.","inLanguage":"ru","url":"https://posadu.ru/bot/index.html","isPartOf":{"@type":"WebSite","name":"По саду — календарь садовода","url":"https://posadu.ru/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Telegram-каналы «Календарь садовода»","description":"Список сезонных садово-огородных работ по региону РФ раз в месяц в Telegram-канале.","inLanguage":"ru","url":"https://posadu.ru/bot/index.html","isPartOf":{"@type":"WebSite","name":"По саду — календарь садовода","url":"https://posadu.ru/"}}</script>
 <style>
 /* ==== Стили только промо-лендинга бота ==== */
 .lp-main { max-width: 62rem; margin: 0 auto; padding: 1.5rem 1.1rem 3rem; }
@@ -126,7 +125,10 @@
   </a>
   <nav class="site-nav" aria-label="Разделы сайта">
     <a href="../index.html">Календарь</a>
+    <a href="../sevooborot/">Севооборот</a>
+    <a href="../plants/index.html">Растения</a>
     <a href="../articles/index.html">Статьи</a>
+    <a href="index.html" aria-current="page">Каналы</a>
   </nav>
   <div class="topbar-controls">
     <button class="btn-theme noprint" type="button" aria-label="Переключить тёмную тему"
@@ -139,8 +141,7 @@
   <section class="lp-hero">
     <div>
       <h1>Что делать в саду в&nbsp;этом месяце — напомним <span class="lp-nowrap">1-го числа</span></h1>
-      <p>Телеграм-бот присылает список сезонных работ по вашему региону: посев, обрезка, подкормка, защита от вредителей — в срок, а не задним числом.</p>
-      <p class="lp-paused" role="status">Приём новых подписок временно приостановлен. Календарь работ доступен на сайте без подписки — <a href="../index.html">открыть</a>.</p>
+      <p>Telegram-канал по вашему региону присылает список сезонных работ: посев, обрезка, подкормка, защита от вредителей — в срок, а не задним числом.</p>
     </div>
     <figure class="lp-goose">
       <img src="../img/bot-hero.webp" alt="Гусь-смотритель в кепке и фартуке у календаря на стене — маскот проекта «Календарь садовода»" width="900" height="900" decoding="async" fetchpriority="high">
@@ -154,7 +155,7 @@
       <article class="card">
         <span class="lp-num">1</span>
         <h3>Раз в месяц, вовремя</h3>
-        <p>1-го числа бот присылает, что делать в саду и огороде именно сейчас — с учётом вашего региона.</p>
+        <p>1-го числа в канале появляется, что делать в саду и огороде именно сейчас — с учётом вашего региона.</p>
       </article>
       <article class="card">
         <span class="lp-num">2</span>
@@ -175,7 +176,7 @@
       <li>4 региона РФ: Средняя полоса, Юг, Урал и Сибирь, Северо-Запад.</li>
       <li>Данные собраны по открытым агрономическим источникам — ссылки указаны в <a href="../articles/index.html">статьях об агротехнике</a>.</li>
       <li>Тот же календарь доступен на сайте без подписки — <a href="../index.html">posadu.ru</a>.</li>
-      <li>Бот бесплатный, без рекламы. Отписаться можно в любой момент командой в чате.</li>
+      <li>Канал бесплатный, без рекламы. Отписаться можно в любой момент — просто выйти из канала в Telegram.</li>
     </ul>
     <div class="lp-msg">
       <span class="lp-msg-from">Календарь садовода · 1 сентября</span>
@@ -189,11 +190,15 @@
   </section>
 
   <section class="lp-cta">
-    <h2 class="lp-h2">Подписка временно недоступна</h2>
-    <p>Приём новых подписок на бота приостановлен. Тот же календарь сезонных работ по вашему региону доступен на сайте без подписки и без регистрации.</p>
+    <h2 class="lp-h2">Подпишитесь на канал своего региона</h2>
+    <p>Рассылка идёт в Telegram-каналах — без личной подписки и без регистрации, просто подпишитесь на канал.</p>
     <div class="lp-cta-row">
-      <a class="lp-btn" href="../index.html">Открыть календарь на сайте</a>
+      <a class="lp-btn" href="https://t.me/posadu_ru_SP">Средняя полоса</a>
+      <a class="lp-btn" href="https://t.me/posadu_ru_YUG">Юг</a>
+      <a class="lp-btn" href="https://t.me/posadu_ru_URAL">Урал и Сибирь</a>
+      <a class="lp-btn" href="https://t.me/posadu_ru_SZ">Северо-Запад</a>
     </div>
+    <span class="lp-cta-secondary"><a href="https://t.me/posadu_ru">Общий канал (анонсы) — @posadu_ru</a></span>
   </section>
 
 </main>

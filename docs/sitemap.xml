@@ -2,15 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://posadu.ru/</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
     <loc>https://posadu.ru/sevooborot/</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
     <loc>https://posadu.ru/articles/index.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://posadu.ru/bot/index.html</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
     <loc>https://posadu.ru/articles/formy-dekorativnyh-derevev.html</loc>
@@ -27,6 +31,10 @@
   <url>
     <loc>https://posadu.ru/articles/obrezka-plodovyh.html</loc>
     <lastmod>2026-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://posadu.ru/articles/podgotovka-teplicy-k-zime.html</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
     <loc>https://posadu.ru/articles/remontantnye-kultury.html</loc>
@@ -50,7 +58,7 @@
   </url>
   <url>
     <loc>https://posadu.ru/plants/index.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
     <loc>https://posadu.ru/plants/abrikos.html</loc>
@@ -470,14 +478,14 @@
   </url>
   <url>
     <loc>https://posadu.ru/kalendar/yug.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
     <loc>https://posadu.ru/kalendar/ural-sibir.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
   </url>
   <url>
     <loc>https://posadu.ru/kalendar/severo-zapad.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
   </url>
 </urlset>

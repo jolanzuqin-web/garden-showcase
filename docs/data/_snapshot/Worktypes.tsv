@@ -1,10 +1,10 @@
 id	name	icon	order
-obrabotka	Обработка от вредителей и болезней	🛡️	1
-udobrenie	Удобрение и подкормка	🌱	4
+obrabotka	Обработка от вредителей и болезней	️	1
+udobrenie	Удобрение и подкормка		4
 obrezka	Обрезка и формировка	✂️	6
-posev	Посев, посадка и высадка	🌰	2
-poliv	Полив	💧	3
-mulcha	Мульчирование	🍁	5
-ukrytie	Укрытие	🧥	7
-urozhay	Сбор урожая	🧺	8
-razmnozhenie	Размножение	🌿	9
+posev	Посев, посадка и высадка		2
+poliv	Полив		3
+mulcha	Мульчирование		5
+ukrytie	Укрытие	痢	7
+urozhay	Сбор урожая	狀	8
+razmnozhenie	Размножение		9

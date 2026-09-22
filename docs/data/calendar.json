@@ -1433,8 +1433,8 @@
   },
   {
     "region": "srednyaya-polosa",
-    "month": "sentyabr",
-    "monthName": "СЕНТЯБРЬ",
+    "month": "oktyabr",
+    "monthName": "ОКТЯБРЬ",
     "workType": "posev",
     "category": "ogorod",
     "growMethod": [
@@ -1504,8 +1504,8 @@
   },
   {
     "region": "srednyaya-polosa",
-    "month": "oktyabr",
-    "monthName": "ОКТЯБРЬ",
+    "month": "noyabr",
+    "monthName": "НОЯБРЬ",
     "workType": "posev",
     "category": "ogorod",
     "growMethod": [
@@ -1524,8 +1524,8 @@
   },
   {
     "region": "srednyaya-polosa",
-    "month": "noyabr",
-    "monthName": "НОЯБРЬ",
+    "month": "dekabr",
+    "monthName": "ДЕКАБРЬ",
     "workType": "posev",
     "category": "ogorod",
     "growMethod": [
@@ -4674,7 +4674,7 @@
       "abrikos",
       "chereshnya"
     ],
-    "text": "Влагозарядковый полив плодовых и ягодных перед зимой при отсутствии осенних дождей."
+    "text": "Влагозарядковый полив плодовых и ягодных перед зимой при отсутствии осенних дождей: взрослым деревьям (яблоня, груша и т.п.) — 50-100 л/м² приствольного круга (до 150+ л на крупное дерево), молодым (до 5-6 лет) — 50-60 л/м² или ~10 л на год жизни. Общая норма — 30-150 л/м² по периметру кроны, в 2-3 подхода."
   },
   {
     "region": "yug",
@@ -7863,22 +7863,6 @@
   },
   {
     "region": "ural-sibir",
-    "month": "fevral",
-    "monthName": "ФЕВРАЛЬ",
-    "workType": "posev",
-    "category": "ogorod",
-    "growMethod": [
-      "rassada"
-    ],
-    "plants": [
-      "tomat",
-      "perets",
-      "baklazhan"
-    ],
-    "text": "Посев семян томата, перца и баклажана на рассаду (перец и баклажан — в первую очередь, у них дольше срок до всходов)."
-  },
-  {
-    "region": "ural-sibir",
     "month": "aprel",
     "monthName": "АПРЕЛЬ",
     "workType": "posev",
@@ -7887,11 +7871,10 @@
       "rassada"
     ],
     "plants": [
-      "tomat",
       "kapusta",
       "bazilik"
     ],
-    "text": "Посев на рассаду томата (если не посеян в феврале), капусты и базилика."
+    "text": "Посев на рассаду капусты и базилика."
   },
   {
     "region": "ural-sibir",
@@ -7963,22 +7946,6 @@
     "workType": "posev",
     "category": "ogorod",
     "growMethod": [
-      "rassada"
-    ],
-    "plants": [
-      "tomat",
-      "perets",
-      "kapusta"
-    ],
-    "text": "В конце месяца, после угрозы возвратных заморозков — высадка рассады томата, перца, капусты в грунт или теплицу."
-  },
-  {
-    "region": "ural-sibir",
-    "month": "iyun",
-    "monthName": "ИЮНЬ",
-    "workType": "posev",
-    "category": "ogorod",
-    "growMethod": [
       "grunt"
     ],
     "plants": [
@@ -8024,8 +7991,8 @@
   },
   {
     "region": "ural-sibir",
-    "month": "avgust",
-    "monthName": "АВГУСТ",
+    "month": "sentyabr",
+    "monthName": "СЕНТЯБРЬ",
     "workType": "posev",
     "category": "ogorod",
     "growMethod": [
@@ -8095,8 +8062,8 @@
   },
   {
     "region": "ural-sibir",
-    "month": "sentyabr",
-    "monthName": "СЕНТЯБРЬ",
+    "month": "oktyabr",
+    "monthName": "ОКТЯБРЬ",
     "workType": "posev",
     "category": "ogorod",
     "growMethod": [
@@ -8115,8 +8082,8 @@
   },
   {
     "region": "ural-sibir",
-    "month": "oktyabr",
-    "monthName": "ОКТЯБРЬ",
+    "month": "noyabr",
+    "monthName": "НОЯБРЬ",
     "workType": "posev",
     "category": "ogorod",
     "growMethod": [
@@ -11312,22 +11279,6 @@
   },
   {
     "region": "severo-zapad",
-    "month": "fevral",
-    "monthName": "ФЕВРАЛЬ",
-    "workType": "posev",
-    "category": "ogorod",
-    "growMethod": [
-      "rassada"
-    ],
-    "plants": [
-      "tomat",
-      "perets",
-      "baklazhan"
-    ],
-    "text": "Посев семян томата, перца и баклажана на рассаду (перец и баклажан — в первую очередь, у них дольше срок до всходов)."
-  },
-  {
-    "region": "severo-zapad",
     "month": "mart",
     "monthName": "МАРТ",
     "workType": "posev",
@@ -11336,11 +11287,10 @@
       "rassada"
     ],
     "plants": [
-      "tomat",
       "kapusta",
       "bazilik"
     ],
-    "text": "Посев на рассаду томата (если не посеян в феврале), капусты и базилика."
+    "text": "Посев на рассаду капусты и базилика."
   },
   {
     "region": "severo-zapad",
@@ -11361,7 +11311,7 @@
       "luk",
       "chesnok"
     ],
-    "text": "Посев в открытый грунт холодостойких культур при прогреве почвы: морковь, свёкла, редис, горох, укроп, петрушка; посадка лука-севка и ярового чеснока."
+    "text": "Посев в открытый грунт холодостойких культур — с конца апреля, когда почва на глубине 7-28 см прогреется до +5°C (по климатическим данным участка — обычно 3-я декада апреля): морковь, свёкла, редис, горох, укроп, петрушка; посадка лука-севка и ярового чеснока."
   },
   {
     "region": "severo-zapad",
@@ -11415,11 +11365,9 @@
       "rassada"
     ],
     "plants": [
-      "tomat",
-      "perets",
       "kapusta"
     ],
-    "text": "В конце месяца, после угрозы возвратных заморозков — высадка рассады томата, перца, капусты в грунт или теплицу."
+    "text": "В конце месяца, после угрозы возвратных заморозков — высадка рассады капусты в грунт или теплицу."
   },
   {
     "region": "severo-zapad",
@@ -11473,8 +11421,8 @@
   },
   {
     "region": "severo-zapad",
-    "month": "sentyabr",
-    "monthName": "СЕНТЯБРЬ",
+    "month": "oktyabr",
+    "monthName": "ОКТЯБРЬ",
     "workType": "posev",
     "category": "ogorod",
     "growMethod": [
@@ -11544,8 +11492,8 @@
   },
   {
     "region": "severo-zapad",
-    "month": "oktyabr",
-    "monthName": "ОКТЯБРЬ",
+    "month": "noyabr",
+    "monthName": "НОЯБРЬ",
     "workType": "posev",
     "category": "ogorod",
     "growMethod": [
@@ -11564,8 +11512,8 @@
   },
   {
     "region": "severo-zapad",
-    "month": "noyabr",
-    "monthName": "НОЯБРЬ",
+    "month": "dekabr",
+    "monthName": "ДЕКАБРЬ",
     "workType": "posev",
     "category": "ogorod",
     "growMethod": [
@@ -12489,8 +12437,8 @@
   },
   {
     "region": "severo-zapad",
-    "month": "may",
-    "monthName": "МАЙ",
+    "month": "iyun",
+    "monthName": "ИЮНЬ",
     "workType": "posev",
     "category": "ogorod",
     "growMethod": [
@@ -12499,7 +12447,7 @@
     "plants": [
       "baklazhan"
     ],
-    "text": "Высадка рассады баклажана в теплицу или под плёнку после угрозы заморозков."
+    "text": "Высадка рассады баклажана в теплицу или под плёнку — после 10 июня, когда минует угроза заморозков."
   },
   {
     "region": "severo-zapad",
@@ -13791,7 +13739,7 @@
     "plants": [
       "klyukva"
     ],
-    "text": "Осенью — влагозарядка гряды и пескование (если по графику). На зиму клюкву укрывают лапником, спанбондом или слоем торфа (вечнозелёные побеги в бесснежные морозы и на ветру подсыхают). В суровые бесснежные зимы — послойный залив гряды водой (2 см, дать замёрзнуть, повторить) до ледяной корки."
+    "text": "На зиму клюкву укрывают лапником, спанбондом или слоем торфа (вечнозелёные побеги в бесснежные морозы и на ветру подсыхают). В суровые бесснежные зимы — послойный залив гряды водой (2 см, дать замёрзнуть, повторить) до ледяной корки."
   },
   {
     "region": "ural-sibir",
@@ -17487,8 +17435,7 @@
       "shpinat",
       "kinza",
       "schavel",
-      "reven",
-      "petrushka"
+      "reven"
     ],
     "text": "После всходов и после каждой массовой срезки зеленных — подкормка настоем коровяка (1:10) или азофоской (20 г на 10 л) для быстрого отрастания листа. Свежий навоз и высокие дозы азота не вносят — накапливаются нитраты."
   },
@@ -17507,8 +17454,7 @@
       "shpinat",
       "kinza",
       "schavel",
-      "reven",
-      "petrushka"
+      "reven"
     ],
     "text": "После всходов и после каждой массовой срезки зеленных — подкормка настоем коровяка (1:10) или азофоской (20 г на 10 л) для быстрого отрастания листа. Свежий навоз и высокие дозы азота не вносят — накапливаются нитраты."
   },
@@ -17527,8 +17473,7 @@
       "shpinat",
       "kinza",
       "schavel",
-      "reven",
-      "petrushka"
+      "reven"
     ],
     "text": "После всходов и после каждой массовой срезки зеленных — подкормка настоем коровяка (1:10) или азофоской (20 г на 10 л) для быстрого отрастания листа. Свежий навоз и высокие дозы азота не вносят — накапливаются нитраты."
   },
@@ -17547,8 +17492,7 @@
       "shpinat",
       "kinza",
       "schavel",
-      "reven",
-      "petrushka"
+      "reven"
     ],
     "text": "После всходов и после каждой массовой срезки зеленных — подкормка настоем коровяка (1:10) или азофоской (20 г на 10 л) для быстрого отрастания листа. Свежий навоз и высокие дозы азота не вносят — накапливаются нитраты."
   },
@@ -20520,8 +20464,8 @@
   },
   {
     "region": "ural-sibir",
-    "month": "sentyabr",
-    "monthName": "СЕНТЯБРЬ",
+    "month": "noyabr",
+    "monthName": "НОЯБРЬ",
     "workType": "posev",
     "category": "dekor",
     "growMethod": [
@@ -21876,7 +21820,7 @@
       "roza",
       "gortenziya"
     ],
-    "text": "Влагозарядковый полив хвойных, роз и гортензий — в ноябре, пока почва в зоне корней не остыла ниже +4…5 °C, при отсутствии дождей."
+    "text": "Влагозарядковый полив хвойных, роз и гортензий — в ноябре (в тёплую погоду возможен сдвиг на декабрь), пока почва в зоне корней не остыла ниже +4…5 °C, при отсутствии дождей; хвойным и вечнозелёным (ель, сосна, туя, можжевельник) требуется на 20-30% больше воды, чем лиственным того же возраста."
   },
   {
     "region": "ural-sibir",
@@ -22034,5 +21978,301 @@
       "kinza"
     ],
     "text": "Осенний конвейерный подсев салатных на Юге — с 3-й декады августа, по спаду жары; продолжают в сентябре каждые 2 недели. Осенью стрелкования нет, качество листа лучше весеннего."
+  },
+  {
+    "region": "yug",
+    "month": "avgust",
+    "monthName": "АВГУСТ",
+    "workType": "poliv",
+    "category": "ogorod",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [
+      "tomat"
+    ],
+    "text": "Полив томата тёплой водой под куст — 3-5 л на растение, раз в 5-7 дней."
+  },
+  {
+    "region": "yug",
+    "month": "avgust",
+    "monthName": "АВГУСТ",
+    "workType": "poliv",
+    "category": "ogorod",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [
+      "perets"
+    ],
+    "text": "Полив перца — 2-3 л на куст, в сильную жару до 5 л на куст."
+  },
+  {
+    "region": "yug",
+    "month": "avgust",
+    "monthName": "АВГУСТ",
+    "workType": "poliv",
+    "category": "ogorod",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [
+      "baklazhan"
+    ],
+    "text": "Полив баклажана — 5-10 л на куст, раз в 5-7 дней."
+  },
+  {
+    "region": "yug",
+    "month": "avgust",
+    "monthName": "АВГУСТ",
+    "workType": "poliv",
+    "category": "ogorod",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [
+      "kapusta",
+      "morkov",
+      "svekla"
+    ],
+    "text": "Полив капусты, моркови и свёклы — 10-15 л/м², раз в 5-10 дней."
+  },
+  {
+    "region": "yug",
+    "month": "avgust",
+    "monthName": "АВГУСТ",
+    "workType": "poliv",
+    "category": "ogorod",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [
+      "ogurets"
+    ],
+    "text": "В жару полив огурца 1-2 раза в день — 5-8 л на куст в зависимости от почвы (лёгкие — 3-4 л, тяжёлые — 6-8 л) или 10-15 л/м²; в засуху при активном созревании плодов — до 15-20 л на погонный метр грядки, чаще обычного, раз в 6-7 дней."
+  },
+  {
+    "region": "yug",
+    "month": "avgust",
+    "monthName": "АВГУСТ",
+    "workType": "poliv",
+    "category": "ogorod",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [
+      "redis",
+      "salat",
+      "rukkola",
+      "shpinat",
+      "kinza",
+      "ukrop",
+      "petrushka"
+    ],
+    "text": "После повторного посева редиса и зелени на освободившихся грядках после лука, чеснока и раннего картофеля (сеять можно до начала сентября) — поддерживать постоянную влажность почвы до появления всходов."
+  },
+  {
+    "region": "yug",
+    "month": "avgust",
+    "monthName": "АВГУСТ",
+    "workType": "poliv",
+    "category": "sad",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [
+      "yablonya",
+      "grusha",
+      "sliva",
+      "vishnya",
+      "smorodina",
+      "kryzhovnik",
+      "malina",
+      "oblepikha",
+      "ezhevika",
+      "irga",
+      "kalina",
+      "abrikos",
+      "chereshnya"
+    ],
+    "text": "Молодым саженцам плодовых деревьев и кустарников текущего года — в течение сезона в среднем 10-15 поливов, 30-50 л воды в приствольную лунку за полив."
+  },
+  {
+    "region": "yug",
+    "month": "avgust",
+    "monthName": "АВГУСТ",
+    "workType": "poliv",
+    "category": "dekor",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [
+      "gortenziya",
+      "hosta",
+      "astilba"
+    ],
+    "text": "Гортензии и другим влаголюбивым декоративным — полив по мере подсыхания почвы, рано утром."
+  },
+  {
+    "region": "yug",
+    "month": "avgust",
+    "monthName": "АВГУСТ",
+    "workType": "poliv",
+    "category": "dekor",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [],
+    "text": "Полив газона — 25 л/м² в неделю; не поливать в жаркие часы дня."
+  },
+  {
+    "region": "yug",
+    "month": "sentyabr",
+    "monthName": "СЕНТЯБРЬ",
+    "workType": "poliv",
+    "category": "ogorod",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [
+      "tomat",
+      "perets",
+      "baklazhan",
+      "kapusta",
+      "morkov",
+      "svekla",
+      "ogurets"
+    ],
+    "text": "Продолжение регулярного полива овощных культур (см. август) — с постепенным сокращением частоты по мере похолодания, без заморозков, но заметно прохладнее."
+  },
+  {
+    "region": "yug",
+    "month": "sentyabr",
+    "monthName": "СЕНТЯБРЬ",
+    "workType": "poliv",
+    "category": "dekor",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [
+      "gortenziya",
+      "hosta",
+      "astilba"
+    ],
+    "text": "Продолжение полива влаголюбивых декоративных культур (см. август) — с постепенным сокращением частоты по мере похолодания."
+  },
+  {
+    "region": "ural-sibir",
+    "month": "mart",
+    "monthName": "МАРТ",
+    "workType": "posev",
+    "category": "ogorod",
+    "growMethod": [
+      "rassada"
+    ],
+    "plants": [
+      "tomat"
+    ],
+    "text": "Посев томата на рассаду (среднеспелые и ранние сорта) — 2-3 декада марта."
+  },
+  {
+    "region": "ural-sibir",
+    "month": "mart",
+    "monthName": "МАРТ",
+    "workType": "posev",
+    "category": "ogorod",
+    "growMethod": [
+      "rassada"
+    ],
+    "plants": [
+      "perets"
+    ],
+    "text": "Посев перца на рассаду — 2-я декада марта (рассада готова за 60-70 дней)."
+  },
+  {
+    "region": "ural-sibir",
+    "month": "mart",
+    "monthName": "МАРТ",
+    "workType": "posev",
+    "category": "ogorod",
+    "growMethod": [
+      "rassada"
+    ],
+    "plants": [
+      "baklazhan"
+    ],
+    "text": "Посев баклажана на рассаду — 1-я декада марта (рассада готова за 65-75 дней), на 1-1.5 недели раньше перца."
+  },
+  {
+    "region": "severo-zapad",
+    "month": "mart",
+    "monthName": "МАРТ",
+    "workType": "posev",
+    "category": "ogorod",
+    "growMethod": [
+      "rassada"
+    ],
+    "plants": [
+      "perets"
+    ],
+    "text": "Посев перца на рассаду — 11-20 марта."
+  },
+  {
+    "region": "severo-zapad",
+    "month": "mart",
+    "monthName": "МАРТ",
+    "workType": "posev",
+    "category": "ogorod",
+    "growMethod": [
+      "rassada"
+    ],
+    "plants": [
+      "baklazhan"
+    ],
+    "text": "Посев баклажана на рассаду — 21-31 марта."
+  },
+  {
+    "region": "severo-zapad",
+    "month": "mart",
+    "monthName": "МАРТ",
+    "workType": "posev",
+    "category": "ogorod",
+    "growMethod": [
+      "rassada"
+    ],
+    "plants": [
+      "tomat"
+    ],
+    "text": "Посев томата на рассаду: позднеспелые высокорослые тепличные — 1-15 марта (рассада 60-70 дней); среднеспелые — 20-31 марта (рассада 50-60 дней); низкорослые тепличные — конец марта.",
+    "detail": "Высадка рассады в теплицу — 1-10 июня."
+  },
+  {
+    "region": "srednyaya-polosa",
+    "month": "oktyabr",
+    "monthName": "ОКТЯБРЬ",
+    "workType": "poliv",
+    "category": "sad",
+    "growMethod": [
+      "grunt"
+    ],
+    "plants": [
+      "klyukva"
+    ],
+    "text": "Осенью — влагозарядка гряды и пескование (если по графику)."
+  },
+  {
+    "region": "severo-zapad",
+    "month": "iyun",
+    "monthName": "ИЮНЬ",
+    "workType": "posev",
+    "category": "ogorod",
+    "growMethod": [
+      "rassada"
+    ],
+    "plants": [
+      "tomat",
+      "perets"
+    ],
+    "text": "Высадка рассады томата (в теплицу, 1-10 июня) и перца (после 10 июня) в грунт или теплицу — после надёжного отступления заморозков."
   }
 ]

@@ -77,7 +77,7 @@ const FRAME_HTML = `<div class="page-frame noprint" aria-hidden="true">
 
 const SITE_URL = 'https://posadu.ru';
 
-function pageShell({ title, description, bodyClass, content, canonical, jsonLd, image, active = 'articles', footerText, calendarHref = '../index.html', articlesHref = 'index.html', plantsHref = '../plants/index.html', sevooborotHref = '../sevooborot/', headExtra = '', bodyEnd = '' }) {
+function pageShell({ title, description, bodyClass, content, canonical, jsonLd, image, active = 'articles', footerText, calendarHref = '../index.html', articlesHref = 'index.html', plantsHref = '../plants/index.html', sevooborotHref = '../sevooborot/', channelHref = '../bot/index.html', headExtra = '', bodyEnd = '' }) {
   const ogImage = image ? `${SITE_URL}/${image}` : `${SITE_URL}/og-image.png`;
   const ogImageSize = image ? { width: 1024, height: 1024 } : { width: 1200, height: 630 };
   return `<!DOCTYPE html>
@@ -114,6 +114,7 @@ ${FRAME_HTML}
     <a href="${sevooborotHref}"${active === 'sevooborot' ? ' aria-current="page"' : ''}>Севооборот</a>
     <a href="${plantsHref}"${active === 'plants' ? ' aria-current="page"' : ''}>Растения</a>
     <a href="${articlesHref}"${active === 'articles' ? ' aria-current="page"' : ''}>Статьи</a>
+    <a href="${channelHref}"${active === 'channels' ? ' aria-current="page"' : ''}>Каналы</a>
   </nav>
   <div class="topbar-controls">
     <button class="btn-theme noprint" type="button" aria-label="Переключить тёмную тему"
